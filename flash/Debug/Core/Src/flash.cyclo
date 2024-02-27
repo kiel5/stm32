@@ -1,0 +1,5 @@
+flash.c:3:6:flash_unlock	1
+flash.c:7:6:flash_lock	1
+flash.c:11:6:flash_erease	1
+flash.c:21:6:flash_write_arr	2
+flash.c:28:6:flash_read_arr	2

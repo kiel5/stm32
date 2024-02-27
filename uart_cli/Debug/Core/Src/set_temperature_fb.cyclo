@@ -1,0 +1,2 @@
+set_temperature_fb.c:10:6:settempMax	1
+set_temperature_fb.c:13:6:settempMin	1

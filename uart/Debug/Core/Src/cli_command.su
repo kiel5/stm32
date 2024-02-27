@@ -1,0 +1,2 @@
+../Core/Src/cli_command.c:6:21:find_command_info	24	static
+../Core/Src/cli_command.c:34:6:cli_command_excutive	72	static

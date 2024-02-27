@@ -1,0 +1,2 @@
+../Core/Src/uart.c:14:6:uart_receive	16	static
+../Core/Src/uart.c:24:6:uart_handle	8	static

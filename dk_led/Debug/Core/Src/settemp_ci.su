@@ -1,0 +1,2 @@
+../Core/Src/settemp_ci.c:3:6:settempMax	16	static
+../Core/Src/settemp_ci.c:7:6:settempMix	16	static

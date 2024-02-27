@@ -1,0 +1,4 @@
+uart_ring.c:10:6:uart_receive	1
+uart_ring.c:14:10:uart_available	1
+uart_ring.c:18:9:uart_read	1
+uart_ring.c:24:6:uart_init	1

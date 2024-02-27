@@ -1,0 +1,5 @@
+min_port.c:5:6:min_tx_start	1
+min_port.c:6:6:min_tx_finished	1
+min_port.c:8:6:min_tx_byte	2
+min_port.c:13:10:min_tx_space	1
+min_port.c:17:10:min_time_ms	1

@@ -1,0 +1,2 @@
+../Core/Src/response.c:11:6:response_print	120	static
+../Core/Src/response.c:20:6:response_init	16	static

@@ -1,0 +1,30 @@
+đề bài: truyền uart: gửi dữ liệu gettemp 30 từ máy tính về
+
+code:
+file main: khởi tạo uart, khởi tạo truyền nhận
+                            trong nhận thì khai báo hàm uart_receive
+
+file uart: nhận dữ liệu, 
+            uart_receive: nếu đủ báo cờ thực hiện uart_handle(),
+            uart_handle(): tách chuỗi
+                           nếu là "gettemp" thì phản hồi về máy tính đã đủ dữ liệu hay chưa.
+
+file response: 
+            response_init: khởi tạo huart1 trong main
+            response_print: hàm phản hồi về máy tính
+
+file gettemp:     lấy dữ liệu sensor và gửi phản hồi lại mt
+
+file cli_type:              định nghĩa kiểu các struct cm_infor: struct chứa con trỏ hàm và help(text phản hồi lại)
+                                                struct cm_entry: cm_infor và name,name để ss với lệnh gửi từ mt về
+file cli_command_table:     table chứa các phần tử cm_entry( có cả cm_infor)
+                                       
+file cli_command:           thực hiện lệnh
+
+
+strtok: thay kí tự thành \0\
+tạo mảng con trỏ char* argv[10];
+khai báo con trỏ hàm: typedef kdltv (*tencontroham)(đối số); 
+
+gửi lệnh help thì trả về các text
+2: thêm lệnh hiệu ứng led

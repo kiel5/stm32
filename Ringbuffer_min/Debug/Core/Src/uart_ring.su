@@ -1,0 +1,4 @@
+../Core/Src/uart_ring.c:10:6:uart_receive	16	static
+../Core/Src/uart_ring.c:14:10:uart_available	8	static
+../Core/Src/uart_ring.c:18:9:uart_read	16	static
+../Core/Src/uart_ring.c:24:6:uart_init	8	static

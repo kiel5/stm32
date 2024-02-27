@@ -1,0 +1,3 @@
+led_drive.c:6:6:set_led	1
+led_drive.c:10:6:toggle_led	1
+led_drive.c:14:6:set_all_led	2

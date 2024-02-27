@@ -1,0 +1,2 @@
+../Core/Src/set_temperature_fb.c:10:6:settempMax	16	static
+../Core/Src/set_temperature_fb.c:13:6:settempMin	16	static
