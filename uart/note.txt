@@ -21,10 +21,13 @@ file cli_command_table:     table chứa các phần tử cm_entry( có cả cm_
                                        
 file cli_command:           thực hiện lệnh
 
-
+Các chú ý:
+-extern "C": 
+-chuỗi nhận về có dạng "lệnh arg1 arg2 ...". tách chuỗi ra thì dùng strtok
 strtok: thay kí tự thành \0\
 tạo mảng con trỏ char* argv[10];
 khai báo con trỏ hàm: typedef kdltv (*tencontroham)(đối số); 
+
 
 gửi lệnh help thì trả về các text
 2: thêm lệnh hiệu ứng led

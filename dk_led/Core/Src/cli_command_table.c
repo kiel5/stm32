@@ -29,6 +29,6 @@ const cli_command_entry_t command_entry_table[]=   // khởi tạo mảng table(
    {"gettemp"   ,&command_info_gettemp},              //phần tử thứ 0
    {"settempMax",&command_info_settempMax},
    {"settempMin",&command_info_settempMin},
-   {"setEffect",&command_info_setEfectLed},
+   {"setEffect", &command_info_setEfectLed},
    {NULL,NULL}
 };

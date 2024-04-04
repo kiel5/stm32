@@ -2,4 +2,4 @@
 ../Core/Src/flash.c:7:6:flash_lock	8	static
 ../Core/Src/flash.c:11:6:flash_erease	40	static
 ../Core/Src/flash.c:21:6:flash_write_arr	40	static
-../Core/Src/flash.c:28:6:flash_read_arr	32	static
+../Core/Src/flash.c:29:6:flash_read_arr	32	static

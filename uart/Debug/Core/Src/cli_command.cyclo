@@ -1,2 +1,2 @@
 cli_command.c:6:21:find_command_info	6
-cli_command.c:34:6:cli_command_excutive	3
+cli_command.c:52:6:cli_command_excutive	3

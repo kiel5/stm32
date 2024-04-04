@@ -5,7 +5,7 @@
 
 typedef struct 
 {
-    uint8_t * buffer;
+    uint8_t * const buffer;
     uint16_t head;
     uint16_t tail;
     uint16_t maxlen;

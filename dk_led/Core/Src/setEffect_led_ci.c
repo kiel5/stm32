@@ -2,7 +2,7 @@
 #include "response.h"
 #include "stdlib.h"
 #include "app_led.h"
-void setEffect_led(char **arg_v, uint8_t arg_num)
+void setEffect_led(char **arg_v, uint8_t arg_num)// dùng char** cho mảng chuỗi
 {
     uint8_t index_effect = atoi(arg_v[1]);
     if(index_effect == 1)
