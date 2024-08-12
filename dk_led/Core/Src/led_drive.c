@@ -1,4 +1,4 @@
-//mỗi lần thay k phải sửa 
+
 #include "led_drive.h"
 #include "string.h"
 #include "stdint.h"
@@ -10,6 +10,7 @@ void set_led(uint8_t index,uint8_t status)
 void toggle_led(uint8_t index)
 {
     HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_0<< index);
+    
 }
 void set_all_led(uint8_t sta)
 {

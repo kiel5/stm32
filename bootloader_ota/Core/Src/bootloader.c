@@ -49,6 +49,7 @@ void min_application_handler(uint8_t min_id, uint8_t const*min_payload,
             // dòng đầu tiên 
             //lấy data lưu vào vùng app
             ota_send_response(ACK);
+            ota_state = OTA_SEND_DATA_STATE;
         }
         break;
     case OTA_SEND_DATA_STATE:
@@ -94,12 +95,12 @@ void ota_send_response(OTA_Response_name ack)
 {
     OTAResponse response;
     response.command_id = OTA_RESPONSE;
-    response.len = 1;
+    response.len = 1;   
     response.ack = ack; 
     bootloader_send_data(&response,sizeof(response));
 }
-void bootloader_request_update()
-{
+void ota_send_request()
+{    
   uint8_t cmd[] = {0x00,1,2};
   min_send_frame(&min_cxt,MIN_ID,cmd,3);
 }

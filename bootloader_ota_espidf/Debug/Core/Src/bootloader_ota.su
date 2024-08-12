@@ -1,0 +1,6 @@
+../Core/Src/bootloader_ota.c:12:6:min_application_handler	40	static
+../Core/Src/bootloader_ota.c:82:6:bootloader_send_data	16	static
+../Core/Src/bootloader_ota.c:87:6:ota_send_response	24	static
+../Core/Src/bootloader_ota.c:95:6:ota_send_request	16	static
+../Core/Src/bootloader_ota.c:101:6:bootloader_handlde	16	static
+../Core/Src/bootloader_ota.c:112:6:bootloader_init	8	static

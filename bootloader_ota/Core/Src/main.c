@@ -102,10 +102,11 @@ int main(void)
   HAL_UART_Receive_IT(&huart1,&data,1);
   bootloader_init();
 
-  uint8_t flag =1;
-  if(flag == 1)
+  uint8_t flag = 1;
+  if (flag == 1)
   {
-    
+    // send request
+    ota_send_request();
   }
   /* USER CODE END 2 */
 

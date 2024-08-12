@@ -1,0 +1,1 @@
+file min_port và min.c sẽ đi cùng nhau, mỗi chip khác nhau sẽ sửa trong min_port
